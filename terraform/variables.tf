@@ -1,7 +1,7 @@
 variable "region" {
   description = "AWS region"
   type = string
-  default = "eu-central-1"
+  default = "us-east-1"
 }
 
 variable "vpc-name" {
@@ -50,7 +50,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.large"
+  default     = "t2.medium"
 }
 
 variable "key_name" {
